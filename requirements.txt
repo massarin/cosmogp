@@ -1,0 +1,10 @@
+astropy==6.0.1
+jax==0.4.28
+jax_cosmo==0.1.0
+jaxopt==0.8.3
+tinygp==0.3.0
+numpyro==0.14.0
+mpmath==1.3.0
+numpy==1.26.4
+scipy==1.13.1
+setuptools==68.1.2
