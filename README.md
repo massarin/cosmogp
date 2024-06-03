@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 ### Usage
 
-Find a basic example to get started with `cosmogp` in the `tutotial.ipynb` notebook.
+Find a basic example to get started with `cosmogp` in the `tutorial.ipynb` notebook.
 
 ### Acknowledgments
 
