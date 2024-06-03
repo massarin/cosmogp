@@ -2,7 +2,7 @@
 
 ### Overview
 
-CosmoGP is a Python package designed for field-level inference of 2D weak lensing fields using Gaussian processes. This package includes functionalities for generating Gaussian random fields (GRF) and lognormal fields, converting between power spectra and correlation functions, and setting up `numpyro` models for MCMC simulations to derive cosmological parameter posteriors. It is built upon `jax-cosmo` for the generation of power sectra and `tinygp` for Gaussian processes.
+CosmoGP is a Python package designed for field-level inference of 2D weak lensing convergence fields using Gaussian processes. This package includes functionalities for generating Gaussian random fields (GRF) and lognormal fields, converting between power spectra and correlation functions, and setting up `numpyro` models for MCMC simulations to derive cosmological parameter posteriors. It is built upon `jax-cosmo` for the generation of power sectra and `tinygp` for Gaussian processes.
 
 ### Features
 
@@ -17,7 +17,7 @@ CosmoGP is a Python package designed for field-level inference of 2D weak lensin
 
 - **Cosmological Parameter Inference:**
   - `numpyro` model setup for MCMC simulation
-  - Posterior distributions for cosmological parameters such as \( S_8 \), \( \Omega_m \), \( \sigma_8 \)
+  - Posterior distributions for cosmological parameters such as $S_8$, $\Omega_m$, $\sigma_8$
 
 
 ### Installation
