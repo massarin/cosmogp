@@ -1,7 +1,38 @@
 # cosmogp
 
+### Overview
 
-Field level inference of 2D weak lensing fields with Gaussian processes.
-- Gaussian random fields (GRF) and lognormal fields generation routines 
-- FFT2, FFTlog and Hankel routines for power spectrum <-> correlation function conversion
-- Numpyro model setup for MCMC simulation of cosmological parameters posteriors ($S_8$, $\Omega_m$, $\sigma_8$)
+CosmoGP is a Python package designed for field-level inference of 2D weak lensing fields using Gaussian processes. This package includes functionalities for generating Gaussian random fields (GRF) and lognormal fields, converting between power spectra and correlation functions, and setting up `numpyro` models for MCMC simulations to derive cosmological parameter posteriors. It is built upon `jax-cosmo` for the generation of power sectra and `tinygp` for Gaussian processes.
+
+### Features
+
+- **Field Generation:**
+  - Gaussian Random Fields (GRF)
+  - Lognormal Fields
+
+- **2-pt Statistics Conversion Routines:**
+  - FFT2 for 2D Fourier transforms
+  - FFTlog for Hankel transforms
+  - Bessel function integration for Hankel transforms
+
+- **Cosmological Parameter Inference:**
+  - `numpyro` model setup for MCMC simulation
+  - Posterior distributions for cosmological parameters such as \( S_8 \), \( \Omega_m \), \( \sigma_8 \)
+
+
+### Installation
+
+To install CosmoGP, clone the repository and install the dependencies:
+
+```sh
+git clone https://github.com/nicmsri/cosmogp.git
+cd cosmogp
+pip install -r requirements.txt
+```
+### Usage
+
+Find a basic example to get started with cosmogp in the `tutotial.ipynb` notebook.
+
+### Acknowledgments
+
+This package was developed as part of my master thesis work. It is primarily intended for research purposes rather than general coding use. For more details on the theoretical background and the specific applications, please refer to my master thesis.
