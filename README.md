@@ -22,12 +22,13 @@
 
 ### Installation
 
-To install `cosmogp`, clone the repository and install the dependencies:
-
+To install `cosmogp`, clone the repository
 ```sh
-git clone https://github.com/nicmsri/cosmogp.git
-cd cosmogp
-pip install -r requirements.txt
+git clone --recursive https://github.com/massarin/cosmogp.git
+```
+and make a python virtual environment before installing the dependencies
+```sh
+pip install -r cosmogp/requirements.txt
 ```
 ### Usage
 
