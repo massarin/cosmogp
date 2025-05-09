@@ -22,8 +22,8 @@ from jax_cosmo.redshift import smail_nz
 import tinygp
 
 import J0_jax
-import mcfit_jax as mcfit
-import grftools_jax as grftools
+import mcfit_jax.mcfit as mcfit
+from grftools_jax.grftools import pseudo_Cls
 
 ###################################################################
 # HELPER FUNCTIONS ################################################
@@ -245,7 +245,7 @@ class DiscreteCl:
         Args:
         PRNGKey1, PRNGKey2 (type(jax.random.PRNGKey)): Random number generator keys.
         """
-        grf = grftools.pseudo_Cls.create_Gaussian_field(PRNGKey1, PRNGKey2, self.cl, (self.px, self.px), (self.L, self.L))
+        grf = pseudo_Cls.create_Gaussian_field(PRNGKey1, PRNGKey2, self.cl, (self.px, self.px), (self.L, self.L))
         return grf
 
 ###################################################################
