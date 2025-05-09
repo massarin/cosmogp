@@ -1,6 +1,6 @@
 [submodule "grftools_jax"]
 	path = grftools_jax
-	url = https://github.com/massarin/grftools_jax.git
+	url = https://github.com/massarin/grftools_jax
 [submodule "mcfit_jax"]
 	path = mcfit_jax
 	url = https://github.com/massarin/mcfit_jax.git
