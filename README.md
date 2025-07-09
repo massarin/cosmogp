@@ -36,4 +36,4 @@ Find a basic example to get started with `cosmogp` in the `tutorial.ipynb` noteb
 
 ### Acknowledgments
 
-This package was developed as part of my master thesis work. It is primarily intended for research purposes rather than general coding use. For more details on the theoretical background and the specific applications, please refer to [my master thesis](https://github.com/massarin/mysliceofweb/blob/main/Weak_lensing_map_inference__a_physics_informed_Gaussian_processes_approach.pdf).
+This package was developed as part of my master thesis work. It is primarily intended for research purposes rather than general coding use. For more details on the theoretical background and the specific applications, please refer to [my master thesis](https://github.com/massarin/massarin.github.io/blob/main/media/Weak_lensing_map_inference__a_physics_informed_Gaussian_processes_approach.pdf).
